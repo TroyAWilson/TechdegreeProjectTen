@@ -28,18 +28,27 @@ header h1 {
 .employee-div{
   display: flex;
   align-items: center;
-  /* background-color: tomato; */
   width: 32%;
   padding: 25px;
   border: 1px lightgrey solid;
   margin:5px;
   line-height: 5px;
+  cursor: pointer;
 }
 .employee-image,
 .modal-image{
   margin: 15px;
   border-radius: 50%;
 }
-.employee-name{
+.employee-name,
+.modal-name{
   font-weight: bold;
+}
+.employee-name::first-letter,
+.modal-name::first-letter{
+  text-transform: uppercase;
+}
+.modal-city{
+  border-bottom: 1px lightgrey solid;
+  padding-bottom: 1em;
 }
