@@ -34,6 +34,12 @@ header h1 {
   margin:5px;
   line-height: 5px;
   cursor: pointer;
+  transition: .5s;
+}
+.employee-div:hover{
+  background-color: #242930;
+  box-shadow: .5px 1.5px 1px .5px grey;
+  color: white;
 }
 .employee-image,
 .modal-image{
@@ -52,3 +58,5 @@ header h1 {
   border-bottom: 1px lightgrey solid;
   padding-bottom: 1em;
 }
+
+/* Media Queries */
