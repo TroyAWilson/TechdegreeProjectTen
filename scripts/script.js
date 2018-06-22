@@ -32,7 +32,7 @@
       + '<p class ="modal-city" style= "color:#83898D">' + data.results[i].location.city + '</p>'
       + '<p class ="modal-phone" style= "color:#83898D">' + data.results[i].cell + '</p>'
       + '<p class ="modal-address" style= "color:#83898D">' + data.results[i].location.street +' '+ data.results[0].nat +' ' + data.results[0].location.postcode + '</p>'
-      + '<p class ="modal-bday" style= "color:#83898D"> Birthdate: ' + data.results[i].dob + '</p>',
+      + '<p class ="modal-bday" style= "color:#83898D"> Birthdate: ' + data.results[i].dob.date + '</p>',
 ].join(''),
     })
   });
